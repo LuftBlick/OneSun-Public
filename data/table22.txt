@@ -1,0 +1,44 @@
+BIACET CH3C(O)C(O)CH3 Biacetyl 9.9632e-6 (=6e14 molec/cm2
+) 4.3 256.9
+BrO BrO Bromine oxide 6.6422e-7 (=4e13 molec/cm2
+) 22.4 221.0
+CH4 CH4 Methane 0.6692 (=1500 DU) 7.3 249.9
+ClO ClO Chloride oxide 1.6605e-6 (=1e14 molec/cm2
+) 22.4 221.0
+CO2 CO2 Carbon dioxide 135.87 (=380 ppm of 1 std atmosphere)
+7.3 249.9
+GLY CHOCHO Glyoxal 9.9632e-6 (=6e14 molec/cm2
+) 4.3 256.9
+HCHO HCHO Formaldehyde 2.2307e-4 (=0.5 DU) 4.3 256.9
+HONO HONO Nitrous acid 4.4615e-5 (=0.1 DU) 4.3 256.9
+H2O H2O Water vapor 555.08 (=1 cm precipitable water) 1.8 273.1
+ICE H2O Ice 555.08 (=1 cm) 8.0 245.0
+IO IO Iodine monoxide 3.3211e-8 (=2e12 molec/cm2
+) 22.4 221.0
+I2 I
+2 Molecular iodine 1.6605e-5 (=1e15 molec/cm2
+) 3.4 262.9
+MGLY CH3COCOH Methylglyoxal 9.9632e-6 (=6e14 molec/cm2
+) 4.3 256.9
+NO2 NO2 Nitrogen dioxide 2.2307e-4 (=0.5 DU) 7.2 254.5
+NO3 NO3 Nitrate 3.3211e-6 (=2e14 molec/cm2
+) 3.4 262.9
+OBrO OBrO Bromine dioxide 1.6605e-7 (=1e13 molec/cm2
+) 22.4 221.0
+OClO OClO Chloride dioxide 1.6605e-7 (=1e13 molec/cm2
+) 22.4 221.0
+OH OH Hydroxyl radical 8.3027e-7 (=5e13 molec/cm2
+) 22.4 221.0
+OIO OIO Iodine dioxide 1.6605e-6 (=1e14 molec/cm2
+) 3.4 262.9
+O2 O2 Oxygen 7.4895e4 (=20.95 % of 1 std atmosphere)
+7.3 249.9
+O2O2 O2O2 Oxygen dimer 3.4995e5 mol2
+/m5
+(amount in 1 std
+atmosphere)
+4.2 262.0
+O3 O3 Ozone 0.13384 (=300 DU) 20.4 225.0
+PYRAC CH3C(O)C(O)OH Pyruvic Acid 1.7846e-05 (=0.04 DU) 4.3 256.9
+SO2 SO2 Sulfur dioxide 2.2307e-4 (=0.5 DU) 4.0 259.2
+WAT H2O Liquid water 555.08 (=1 cm) 3.0 283.0

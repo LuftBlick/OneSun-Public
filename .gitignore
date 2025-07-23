@@ -1,0 +1,7 @@
+__pycache__/
+.idea
+data/l0_datasets
+data/l1_datasets
+data/processed_datasets/
+plots/
+.venv/
