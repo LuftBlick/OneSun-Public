@@ -1,7 +1,14 @@
+# downloaded archives and experiment outputs
+data/
+runs/
+# Python
 __pycache__/
-.idea
-data/l0_datasets
-data/l1_datasets
-data/processed_datasets/
-plots/
+*.py[cod]
+*.egg-info/
+build/
 .venv/
+.pytest_cache/
+# editors and OS
+.idea/
+.vscode/
+.DS_Store

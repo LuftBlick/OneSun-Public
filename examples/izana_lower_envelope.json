@@ -1,0 +1,14 @@
+{
+  "name": "izana_lower_envelope",
+  "data_dir": "data",
+  "output_dir": "runs",
+  "instruments": {
+    "izana_p209": {"location": "Izana", "pandora": 209, "spectrometer": 1,
+                   "start": "2025-03-01", "end": "2025-05-29"}
+  },
+  "joint": true,
+  "split": {"holdout_fraction": 0.2, "seed": 42},
+  "langley": {"method": "lower_envelope", "quantile": 0.02},
+  "example_days": 5,
+  "evaluate": {"l2_code": "rnvs3", "screen_mad_multiplier": 10}
+}

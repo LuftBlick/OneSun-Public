@@ -1,0 +1,19 @@
+{
+  "name": "three_sites_individual",
+  "data_dir": "data",
+  "output_dir": "runs",
+  "instruments": {
+    "rome_sap": {"location": "Rome-SAP", "pandora": 117, "spectrometer": 1,
+                 "start": "2024-01-01", "end": "2025-04-09"},
+    "tel_aviv": {"location": "Tel-Aviv", "pandora": 182, "spectrometer": 1,
+                 "start": "2024-01-01", "end": "2025-12-31"},
+    "thessaloniki": {"location": "Thessaloniki", "pandora": 240, "spectrometer": 1,
+                     "start": "2025-01-01", "end": "2025-12-31"}
+  },
+  "joint": false,
+  "fit": {"train_rows_per_instrument": 20000},
+  "split": {"holdout_fraction": 0.2, "seed": 42},
+  "langley": {"method": "regression"},
+  "example_days": 10,
+  "evaluate": {"l2_code": "rnvs3", "screen_mad_multiplier": 10}
+}

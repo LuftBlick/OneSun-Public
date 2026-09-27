@@ -1,0 +1,43 @@
+{
+  "name": "quickstart_seoul",
+  "data_dir": "data",
+  "output_dir": "runs",
+  "instruments": {
+    "seoul_snu_p149": {
+      "location": "Seoul-SNU",
+      "pandora": 149,
+      "spectrometer": 1,
+      "start": "2021-06-01",
+      "end": "2021-06-10"
+    },
+    "seoul_snu_p163": {
+      "location": "Seoul-SNU",
+      "pandora": 163,
+      "spectrometer": 1,
+      "start": "2021-06-01",
+      "end": "2021-06-10"
+    }
+  },
+  "joint": true,
+  "utc_offset_hours": 9,
+  "split": {
+    "holdout_fraction": 0.2,
+    "seed": 42,
+    "common": true
+  },
+  "langley": {
+    "method": "lower_envelope",
+    "quantile": 0.02
+  },
+  "example_days": 2,
+  "evaluate": {
+    "l2_code": "rnvs3",
+    "screen_mad_multiplier": 10
+  },
+  "collocated_pairs": [
+    [
+      "seoul_snu_p149",
+      "seoul_snu_p163"
+    ]
+  ]
+}

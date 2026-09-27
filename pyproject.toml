@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onesun"
+version = "1.0.0"
+description = "Label-free NO2 retrieval from raw Pandora L0 direct-sun spectra (ESA OneSun project)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "LuftBlick Earth Observation Technologies" }]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "pyarrow>=12",
+    "pysolar>=0.10",
+    "matplotlib>=3.7",
+    "requests>=2.28",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+onesun = "onesun.__main__:main"
+
+[tool.setuptools]
+packages = ["onesun"]
+
+[tool.setuptools.package-data]
+onesun = ["reference_data/*.csv"]
